@@ -1,4 +1,5 @@
-[{"id":1,"first_name":"Mikol","last_name":"Ingrey","email":"mingrey0@fotki.com","gender":"Female"},
+
+    [{"id":1,"first_name":"Mikol","last_name":"Ingrey","email":"mingrey0@fotki.com","gender":"Female"},
 {"id":2,"first_name":"Elenore","last_name":"Vescovini","email":"evescovini1@apple.com","gender":"Male"},
 {"id":3,"first_name":"Marvin","last_name":"McIlreavy","email":"mmcilreavy2@pinterest.com","gender":"Male"},
 {"id":4,"first_name":"Laryssa","last_name":"Millimoe","email":"lmillimoe3@cnn.com","gender":"Male"},
