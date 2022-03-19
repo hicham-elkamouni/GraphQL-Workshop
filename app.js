@@ -18,9 +18,9 @@ const UserType = new GraphQLObjectType({
   fields: () => ({
     id: { type: GraphQLInt },
     first_name: { type: GraphQLString },
-    lastName: { type: GraphQLString },
+    last_name : { type: GraphQLString },
     email: { type: GraphQLString },
-    password: { type: GraphQLString },
+    gender: { type: GraphQLString },
   }),
 });
 
@@ -43,18 +43,18 @@ const Mutation = new GraphQLObjectType({
     createUser: {
       type: UserType,
       args: {
-        firstName: { type: GraphQLString },
-        lastName: { type: GraphQLString },
+        first_name: { type: GraphQLString },
+        last_name: { type: GraphQLString },
         email: { type: GraphQLString },
-        password: { type: GraphQLString },
+        gender: { type: GraphQLString },
       },
       resolve(parent, args) {
         userData.push({
-          id: userData.length + 1,
-          firstName: args.firstName,
-          lastName: args.lastName,
+          id : 301,
+          first_name: args.first_name,
+          last_name: args.last_name,
           email: args.email,
-          password: args.password,
+          gender: args.gender,
         });
         return args;
       },
@@ -71,5 +71,5 @@ app.use("/graphql",graphqlHTTP({
 );
 
 app.listen(PORT, () => {
-  console.log("SERVER RUNNING");
+  console.log("SERVER RUNNING 🚀🚀🚀");
 });

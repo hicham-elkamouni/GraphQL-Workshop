@@ -1,5 +1,5 @@
-
-    [{"id":1,"first_name":"Mikol","last_name":"Ingrey","email":"mingrey0@fotki.com","gender":"Female"},
+[
+{"id":1,"first_name":"Mikol","last_name":"Ingrey","email":"mingrey0@fotki.com","gender":"Female"},
 {"id":2,"first_name":"Elenore","last_name":"Vescovini","email":"evescovini1@apple.com","gender":"Male"},
 {"id":3,"first_name":"Marvin","last_name":"McIlreavy","email":"mmcilreavy2@pinterest.com","gender":"Male"},
 {"id":4,"first_name":"Laryssa","last_name":"Millimoe","email":"lmillimoe3@cnn.com","gender":"Male"},
@@ -298,4 +298,5 @@
 {"id":297,"first_name":"Gonzales","last_name":"Nijssen","email":"gnijssen88@wix.com","gender":"Female"},
 {"id":298,"first_name":"Corene","last_name":"Haley","email":"chaley89@seesaa.net","gender":"Female"},
 {"id":299,"first_name":"Hercule","last_name":"Massei","email":"hmassei8a@ning.com","gender":"Male"},
-{"id":300,"first_name":"Trudy","last_name":"Shrimpton","email":"tshrimpton8b@deviantart.com","gender":"Male"}]
+{"id":300,"first_name":"Trudy","last_name":"Shrimpton","email":"tshrimpton8b@deviantart.com","gender":"Male"}
+]
